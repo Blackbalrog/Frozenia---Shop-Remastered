@@ -7,28 +7,19 @@ limit:
 itemSelect:
   slot: 13
 
-#/!\ No touch ID /!\
-# ID: 0 = Clear
-# ID: 1 = Vendor
-# ID: 2 = Back
-
 Items:
-
   itemClear:
-    ID: 0
     material: PAPER
     name: "Clear"
     slot: 31
 
   itemVendor:
-    ID: 1
     material: STAINED_GLASS_PANE
     nbt: 4
     name: "Vendeur"
     slot: 40
   
   itemBack:
-    ID: 2
     material: STAINED_GLASS_PANE
     nbt: 14
     name: "Retour"
@@ -39,7 +30,7 @@ Items:
   sell_1:
     material: STAINED_GLASS_PANE
     nbt: 14
-    name: "&c-64"
+    name: "&c-1"
     number: 1
     slot: 30
   sell_32:
@@ -65,7 +56,7 @@ Items:
     material: STAINED_GLASS_PANE
     nbt: 5
     name: "&a+32"
-    number: 1
+    number: 32
     slot: 33
   buy_64:
     material: STAINED_GLASS_PANE

@@ -75,6 +75,7 @@ public class InventoryMenu implements Listener
 		Player player = (Player) event.getWhoClicked();
 		ItemStack item = event.getCurrentItem();
 
+		if (event.getView().getTitle() == null) return;
 		if (event.getView().getTitle().equals(configuration.getString("title")))
 		{
 			event.setCancelled(true);
