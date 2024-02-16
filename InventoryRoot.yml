@@ -1,0 +1,11 @@
+title: "root"
+size: 27
+
+Menus:
+  Blocks:
+    material: "GRASS"
+    nbt: 0
+    name: "Blocks"
+    lores:
+      - "lores"
+    slot: 0

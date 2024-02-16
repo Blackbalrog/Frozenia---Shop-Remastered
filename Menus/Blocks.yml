@@ -1,0 +1,28 @@
+title: "Blocks"
+size: 54
+
+
+pages:
+  after:
+    material: PAPER
+    nbt: 0
+    slot: 48
+  before:
+    material: PAPER
+    nbt: 0
+    slot: 50
+
+
+page_0:
+  terre:
+    material: "GRASS"
+    nbt: 0
+    name: "Terre"
+    slot: 0
+    
+page_1:
+  bois:
+    material: LOG
+    nbt: 0
+    name: "Bois"
+    slot: 0
