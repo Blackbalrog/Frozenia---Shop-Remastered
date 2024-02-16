@@ -19,10 +19,10 @@ import fr.frozenia.shop.configuration.DefaultConfiguration;
 
 public class InventoryMenu implements Listener
 {
-
+	
+	private static Shop instance;
 	private static DefaultConfiguration configuration;
 	private static HashMap<Integer, String> map_key = new HashMap<>();
-	private static Shop instance;
 	private static int PAGE  = 0;
 	private static int PAGES = 0;
 
@@ -89,14 +89,13 @@ public class InventoryMenu implements Listener
 					{
 						if (PAGE == 0) return;
 						PAGE = PAGE -1;
-						openInventory(player, Shop.getPlayerManager().getPlayerManager(player).getMenu(), PAGE);
 					}
 					if (key.equals("before"))
 					{
 						if (PAGE == PAGES) return;
 						PAGE = PAGE +1;
-						openInventory(player, Shop.getPlayerManager().getPlayerManager(player).getMenu(), PAGE);
 					}
+					openInventory(player, Shop.getPlayerManager().getPlayerManager(player).getMenu(), PAGE);
 				}
 			}
 			if (map_key.get(event.getSlot()) == null) return;
